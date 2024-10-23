@@ -93,12 +93,30 @@ sections:
       view: citation
       columns: '1'
 
-  - block: markdown
+- block: people
     content:
-      title:
-      subtitle:
-      text: |
-        {{% cta cta_link="./people/" cta_text="People →" %}}
+      title: People
+      # Choose which groups/teams of users to display.
+      #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
+      user_groups:
+          - Professor
+          - Ph.D. Student
+          - Research Assistant
+          - Visitors
+          - Alumni
+      sort_by: Params.year
+      sort_ascending: false
     design:
-      columns: '1'
+      show_interests: false
+      show_role: true
+      show_social: true
+
+  # - block: markdown
+  #   content:
+  #     title:
+  #     subtitle:
+  #     text: |
+  #       {{% cta cta_link="./people/" cta_text="People →" %}}
+  #   design:
+  #     columns: '1'
 ---
