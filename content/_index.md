@@ -93,27 +93,44 @@ sections:
       view: citation
       columns: '1'
 
-  - block: markdown
+  - block: people
     content:
-      title: Graduate and PostDoc Researchers
-      text: |
-        <div style="text-align: center;">
-          <img src="/content/authors/QiangXu/avatar.jpg" alt="Prof. Qiang Xu" style="width:100px; border-radius:50%;">
-          <p><strong>Prof.  Qiang Xu</strong><br>Principal Investigator</p>
-        </div>
-        <div style="display: flex; flex-wrap: wrap; justify-content: center;">
-          <div style="margin: 10px; text-align: center;">
-            <img src="/content/authors/XuanJu/avatar.jpg" alt="Xuan Ju" style="width:80px; border-radius:50%;">
-            <p><a href="#" style="color: #1a73e8;">Xuan Ju</a><br>PhD, started SP'22</p>
-          </div>
-          <div style="margin: 10px; text-align: center;">
-            <img src="/content/authors/XuanJu/avatar.jpg" alt="Xuan Ju" style="width:80px; border-radius:50%;">
-            <p><a href="#" style="color: #1a73e8;">Xuan Ju</a><br>PhD, started SP'22</p>
-          </div>
-          <!-- 添加更多人物 -->
-        </div>
+      title: People
+      # Choose which groups/teams of users to display.
+      #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
+      user_groups:
+          - Professor
+          - Ph.D. Student
+          - Research Assistant
+          - Visitors
+          - Alumni
+      sort_by: Params.year
+      sort_ascending: false
     design:
-      columns: '1'
+      show_interests: false
+      show_role: true
+      show_social: true
+  # - block: markdown
+  #   content:
+  #     title: Graduate and PostDoc Researchers
+  #     text: |
+  #       <div style="text-align: center;">
+  #         <img src="/content/authors/QiangXu/avatar.jpg" alt="Prof. Qiang Xu" style="width:100px; border-radius:50%;">
+  #         <p><strong>Prof.  Qiang Xu</strong><br>Principal Investigator</p>
+  #       </div>
+  #       <div style="display: flex; flex-wrap: wrap; justify-content: center;">
+  #         <div style="margin: 10px; text-align: center;">
+  #           <img src="/content/authors/XuanJu/avatar.jpg" alt="Xuan Ju" style="width:80px; border-radius:50%;">
+  #           <p><a href="#" style="color: #1a73e8;">Xuan Ju</a><br>PhD, started SP'22</p>
+  #         </div>
+  #         <div style="margin: 10px; text-align: center;">
+  #           <img src="/content/authors/XuanJu/avatar.jpg" alt="Xuan Ju" style="width:80px; border-radius:50%;">
+  #           <p><a href="#" style="color: #1a73e8;">Xuan Ju</a><br>PhD, started SP'22</p>
+  #         </div>
+  #         <!-- 添加更多人物 -->
+  #       </div>
+  #   design:
+  #     columns: '1'
 
   # - block: markdown
   #   content:
