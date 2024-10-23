@@ -12,8 +12,10 @@ sections:
           filename: welcome.jpg
           filters:
             brightness: 0.9
-          size: cover
-          position: center
+          # size: cover
+          # position: center
+          size: contain
+          position: top
           parallax: true
           text_color_light: true
     content:
@@ -110,27 +112,7 @@ sections:
       show_interests: false
       show_role: true
       show_social: true
-  # - block: markdown
-  #   content:
-  #     title: Graduate and PostDoc Researchers
-  #     text: |
-  #       <div style="text-align: center;">
-  #         <img src="/content/authors/QiangXu/avatar.jpg" alt="Prof. Qiang Xu" style="width:100px; border-radius:50%;">
-  #         <p><strong>Prof.  Qiang Xu</strong><br>Principal Investigator</p>
-  #       </div>
-  #       <div style="display: flex; flex-wrap: wrap; justify-content: center;">
-  #         <div style="margin: 10px; text-align: center;">
-  #           <img src="/content/authors/XuanJu/avatar.jpg" alt="Xuan Ju" style="width:80px; border-radius:50%;">
-  #           <p><a href="#" style="color: #1a73e8;">Xuan Ju</a><br>PhD, started SP'22</p>
-  #         </div>
-  #         <div style="margin: 10px; text-align: center;">
-  #           <img src="/content/authors/XuanJu/avatar.jpg" alt="Xuan Ju" style="width:80px; border-radius:50%;">
-  #           <p><a href="#" style="color: #1a73e8;">Xuan Ju</a><br>PhD, started SP'22</p>
-  #         </div>
-  #         <!-- 添加更多人物 -->
-  #       </div>
-  #   design:
-  #     columns: '1'
+
 
   # - block: markdown
   #   content:
