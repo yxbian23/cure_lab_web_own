@@ -11,6 +11,7 @@ sections:
       - title: 👋 Welcome
         content: # Take a look at what we're working on...
           text: |
+          <div style="background-color: rgba(0, 0, 0, 0.65);">
           <p style="text-align: center">
           <font size=5px style="color: rgba(255, 255, 255, 1);">
           Take a look at what we're working on! 
@@ -25,7 +26,7 @@ sections:
           ✨ Time Series
           <br/>
           We are continue to work on the safety and security aspects of AI, developing robust AI models that can withstand adversarial attacks and operate reliably even under uncertain or volatile conditions.
-          </font> 
+          </font> </div>
         align: center
         background:
           image:
