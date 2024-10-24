@@ -54,6 +54,7 @@ sections:
 
   - block: markdown
     design:
+      style: "min-height: 400px;"
       background:
         image:
           filename: ai_native_eda.png
