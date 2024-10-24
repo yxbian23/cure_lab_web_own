@@ -9,24 +9,7 @@ sections:
     content:
       slides:
       - title: 👋 Welcome
-        content: # Take a look at what we're working on...
-          text: |
-          <div style="background-color: rgba(0, 0, 0, 0.65);">
-          <p style="text-align: center">
-          <font size=9px style="color: rgba(255, 255, 255, 1);">
-          Take a look at what we're working on! 
-          </font> </p>
-          <font size=4px style="color: rgba(255, 255, 255, 1);">
-          At the <u>CU</u>HK <u>RE</u>liable Computing laboratory (CURE Lab.), our core research methodology is rooted in creating innovative solutions that directly tackle the limitations of state-of-the-art computing technologies. Currently, we are passionately committed to the exploration and advancement of artificial intelligence across a variety of cutting-edge directions:
-          <br/>
-          ✨ AI-Native EDA
-          <br/>
-          ✨ Image&Video Generation 
-          <br/>
-          ✨ Time Series
-          <br/>
-          We are continue to work on the safety and security aspects of AI, developing robust AI models that can withstand adversarial attacks and operate reliably even under uncertain or volatile conditions.
-          </font> </div>
+        content: Take a look at what we're working on...
         align: center
         background:
           image:
