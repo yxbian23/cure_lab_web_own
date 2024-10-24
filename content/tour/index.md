@@ -54,6 +54,17 @@ sections:
 
   - block: markdown
     design:
+      background:
+        image:
+          filename: welcome.jpg
+          filters:
+            brightness: 0.9
+          # size: cover
+          # position: center
+          size: contain
+          position: top
+          parallax: true
+          text_color_light: true
     content:
       # title: |
       #   <font size="9" style="color: rgba(255, 255, 255, 0.99);">
