@@ -54,7 +54,7 @@ sections:
 
   - block: markdown
     design:
-      style: "min-height: 400px;"
+      style: "min-height: 700px;"
       background:
         image:
           filename: ai_native_eda.png
@@ -93,6 +93,7 @@ sections:
   
   - block: markdown
     design:
+      style: "min-height: 700px;"
       background:
         image:
           filename: image_video.png
@@ -131,6 +132,7 @@ sections:
 
   - block: markdown
     design:
+      style: "min-height: 700px;"
       background:
         image:
           filename: time_series.jpg
