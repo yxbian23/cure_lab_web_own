@@ -9,7 +9,23 @@ sections:
     content:
       slides:
       - title: 👋 Welcome
-        content: Take a look at what we're working on...
+        content: # Take a look at what we're working on...
+          text: |
+          <p style="text-align: center">
+          <font size=5px style="color: rgba(255, 255, 255, 1);">
+          Take a look at what we're working on! 
+          </font></p>
+          <font size=4px style="color: rgba(255, 255, 255, 1);">
+          At the <u>CU</u>HK <u>RE</u>liable Computing laboratory (CURE Lab.), our core research methodology is rooted in creating innovative solutions that directly tackle the limitations of state-of-the-art computing technologies. Currently, we are passionately committed to the exploration and advancement of artificial intelligence across a variety of cutting-edge directions:
+          <br/>
+          ✨ AI-Native EDA
+          <br/>
+          ✨ Image&Video Generation 
+          <br/>
+          ✨ Time Series
+          <br/>
+          We are continue to work on the safety and security aspects of AI, developing robust AI models that can withstand adversarial attacks and operate reliably even under uncertain or volatile conditions.
+          </font> 
         align: center
         background:
           image:
@@ -51,4 +67,31 @@ sections:
       loop: false
       # Duration of transition between slides (in ms)
       interval: 2000
+
+  - block: markdown
+    design:
+    content:
+      # title: |
+      #   <font size="9" style="color: rgba(255, 255, 255, 0.99);">
+      #   CURE Lab Research Group
+      #   </font>
+      # image:
+      #   filename: welcome.jpg
+      text: |
+        <div style="background-color: rgba(0, 0, 0, 0.65);">
+        <p style="text-align: center">
+        <font size=9px style="color: rgba(255, 255, 255, 1);">
+        CURE Lab Research Group
+        </font></p>
+        <font size=4px style="color: rgba(255, 255, 255, 1);">
+        At the <u>CU</u>HK <u>RE</u>liable Computing laboratory (CURE Lab.), our core research methodology is rooted in creating innovative solutions that directly tackle the limitations of state-of-the-art computing technologies. Currently, we are passionately committed to the exploration and advancement of artificial intelligence across a variety of cutting-edge directions:
+        <br/>
+        ✨ AI-Native EDA
+        <br/>
+        ✨ Image&Video Generation 
+        <br/>
+        ✨ Time Series
+        <br/>
+        We are continue to work on the safety and security aspects of AI, developing robust AI models that can withstand adversarial attacks and operate reliably even under uncertain or volatile conditions.
+        </font> </div>
 ---
