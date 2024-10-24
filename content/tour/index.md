@@ -56,7 +56,7 @@ sections:
     design:
       background:
         image:
-          filename: welcome.jpg
+          filename: ai_native_eda.png
           filters:
             brightness: 0.9
           # size: cover
@@ -76,17 +76,93 @@ sections:
         <div style="background-color: rgba(0, 0, 0, 0.65);">
         <p style="text-align: center">
         <font size=9px style="color: rgba(255, 255, 255, 1);">
-        CURE Lab Research Group
+        Large Circuit Model
         </font></p>
         <font size=4px style="color: rgba(255, 255, 255, 1);">
-        At the <u>CU</u>HK <u>RE</u>liable Computing laboratory (CURE Lab.), our core research methodology is rooted in creating innovative solutions that directly tackle the limitations of state-of-the-art computing technologies. Currently, we are passionately committed to the exploration and advancement of artificial intelligence across a variety of cutting-edge directions:
+        We aim to explore opportunities and Challenges of Large Circuit Models in several espects:
         <br/>
-        ✨ AI-Native EDA
+        ✨ EDA Foundation Model
         <br/>
-        ✨ Image&Video Generation 
+        ✨ AI-powered EDA Optimization
         <br/>
-        ✨ Time Series
+        ✨ Multi-modal EDA
         <br/>
-        We are continue to work on the safety and security aspects of AI, developing robust AI models that can withstand adversarial attacks and operate reliably even under uncertain or volatile conditions.
+        We are continue to work on ...
+        </font> </div>
+  
+  - block: markdown
+    design:
+      background:
+        image:
+          filename: image_video.png
+          filters:
+            brightness: 0.9
+          # size: cover
+          # position: center
+          size: contain
+          position: top
+          parallax: true
+          text_color_light: true
+    content:
+      # title: |
+      #   <font size="9" style="color: rgba(255, 255, 255, 0.99);">
+      #   CURE Lab Research Group
+      #   </font>
+      # image:
+      #   filename: welcome.jpg
+      text: |
+        <div style="background-color: rgba(0, 0, 0, 0.65);">
+        <p style="text-align: center">
+        <font size=9px style="color: rgba(255, 255, 255, 1);">
+        Controllable Image&Video Generation
+        </font></p>
+        <font size=4px style="color: rgba(255, 255, 255, 1);">
+        We aim to explore opportunities and Challenges of Controllable Image & Video Generation in several espects:
+        <br/>
+        ✨ Controllable Image Generation & Inpainting(Editing)
+        <br/>
+        ✨ High-quality Autonomous Driving Simulation
+        <br/>
+        ✨ Controllable Video Generation
+        <br/>
+        We are continue to work on ...
+        </font> </div>
+
+  - block: markdown
+    design:
+      background:
+        image:
+          filename: time_series.jpg
+          filters:
+            brightness: 0.9
+          # size: cover
+          # position: center
+          size: contain
+          position: top
+          parallax: true
+          text_color_light: true
+    content:
+      # title: |
+      #   <font size="9" style="color: rgba(255, 255, 255, 0.99);">
+      #   CURE Lab Research Group
+      #   </font>
+      # image:
+      #   filename: welcome.jpg
+      text: |
+        <div style="background-color: rgba(0, 0, 0, 0.65);">
+        <p style="text-align: center">
+        <font size=9px style="color: rgba(255, 255, 255, 1);">
+        Time Series Analysis
+        </font></p>
+        <font size=4px style="color: rgba(255, 255, 255, 1);">
+        We aim to explore opportunities and Challenges of Time Series Analysis in several espects:
+        <br/>
+        ✨ Time Series Forecasting
+        <br/>
+        ✨ Time Series Anomaly Detection
+        <br/>
+        ✨ Time Series Representation Learning
+        <br/>
+        We are continue to work on ...
         </font> </div>
 ---
