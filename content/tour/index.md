@@ -13,7 +13,7 @@ sections:
           text: |
           <div style="background-color: rgba(0, 0, 0, 0.65);">
           <p style="text-align: center">
-          <font size=5px style="color: rgba(255, 255, 255, 1);">
+          <font size=9px style="color: rgba(255, 255, 255, 1);">
           Take a look at what we're working on! 
           </font></p>
           <font size=4px style="color: rgba(255, 255, 255, 1);">
